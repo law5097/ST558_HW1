@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "ST558_HW1.html",
+    "href": "ST558_HW1.html",
+    "title": "ST558 HW1 - Lee Worthington",
+    "section": "",
+    "text": "To me being a data scientist is about extracting useful information from data in furtherance of some other goal. What tools this requires really depends on the task, so I think being adaptable and having a wide breadth of knowledge (or being able to research the information you need) are probably the most important aspects of being a successful data scientist, outside of having the baseline statistical and programming knowledge.\n\n\n\nI usually think of data science as a particular application of statistics and programming, rather than it’s own discipline, that blends the two together into useful applications. But, in terms of similarities between data scientists and statisticians I’d say:\n\nBoth involve understanding data to derive useful insights & actions\nSome level of programming is often necessary for both\n\nFor differences:\n\nStatistics tends to be much more formal and heavy on math/theory\nData science (in the commercial sector at least) tends to focus on achieving some sort of specific application, sometimes using methods that are not easily human interpretable, explainable, or closed form\n\n\n\n\nAt this point I feel pretty confident in both general data science and statistics, but I don’t consider myself an expert and there’s always something new interesting area to learn and someone more capable than you so I try to keep learning."
+  },
+  {
+    "objectID": "ST558_HW1.html#load-kde-of-iris-sepal-length-into-y",
+    "href": "ST558_HW1.html#load-kde-of-iris-sepal-length-into-y",
+    "title": "ST558 HW1 - Lee Worthington",
+    "section": "load kde of iris sepal length into y",
+    "text": "load kde of iris sepal length into y\n\ny <- density(iris$Sepal.Length)"
+  },
+  {
+    "objectID": "ST558_HW1.html#print-class-type-and-structure-of-y",
+    "href": "ST558_HW1.html#print-class-type-and-structure-of-y",
+    "title": "ST558 HW1 - Lee Worthington",
+    "section": "print class, type, and structure of y",
+    "text": "print class, type, and structure of y\n\n\n[1] \"density\"\n\n\n[1] \"list\"\n\n\nList of 7\n $ x        : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y        : num [1:512] 0.000232 0.000262 0.000296 0.000333 0.000373 ...\n $ bw       : num 0.274\n $ n        : int 150\n $ call     : language density.default(x = iris$Sepal.Length)\n $ data.name: chr \"iris$Sepal.Length\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\""
+  },
+  {
+    "objectID": "ST558_HW1.html#plot-y",
+    "href": "ST558_HW1.html#plot-y",
+    "title": "ST558 HW1 - Lee Worthington",
+    "section": "plot y",
+    "text": "plot y"
+  }
+]

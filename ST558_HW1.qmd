@@ -1,0 +1,51 @@
+---
+title: "ST558 HW1 - Lee Worthington"
+format: html
+editor: visual
+---
+
+# Questions
+
+## Question 1 - What do you think being a data scientist is about?
+
+To me being a data scientist is about extracting useful information from data in furtherance of some other goal. What tools this requires really depends on the task, so I think being adaptable and having a wide breadth of knowledge (or being able to research the information you need) are probably the most important aspects of being a successful data scientist, outside of having the baseline statistical and programming knowledge.
+
+## Question 2 - What differences/similarities do you see between data scientists and statisticians?
+
+I usually think of data science as a particular application of statistics and programming, rather than it's own discipline, that blends the two together into useful applications. But, in terms of similarities between data scientists and statisticians I'd say:
+
+-   Both involve understanding data to derive useful insights & actions
+-   Some level of programming is often necessary for both
+
+For differences:
+
+-   Statistics tends to be much more formal and heavy on math/theory
+-   Data science (in the commercial sector at least) tends to focus on achieving some sort of specific application, sometimes using methods that are not easily human interpretable, explainable, or closed form
+
+## Question 3 - How do you view yourself in relation to these two areas?
+
+At this point I feel pretty confident in both general data science and statistics, but I don't consider myself an expert and there's always something new interesting area to learn and someone more capable than you so I try to keep learning.
+
+# R code
+
+## load kde of iris sepal length into y
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+## print class, type, and structure of y
+```{r}
+#| echo: false
+
+class(y)
+typeof(y)
+str(y)
+
+```
+
+## plot y
+```{r}
+#| echo: false
+
+plot(y)
+```
